@@ -1,0 +1,11 @@
+/home/viggie/CSharp/OnlineCrimeRepo/bin/Debug/netcoreapp2.0/OnlineCrimeRepo.deps.json
+/home/viggie/CSharp/OnlineCrimeRepo/bin/Debug/netcoreapp2.0/OnlineCrimeRepo.runtimeconfig.json
+/home/viggie/CSharp/OnlineCrimeRepo/bin/Debug/netcoreapp2.0/OnlineCrimeRepo.runtimeconfig.dev.json
+/home/viggie/CSharp/OnlineCrimeRepo/bin/Debug/netcoreapp2.0/OnlineCrimeRepo.dll
+/home/viggie/CSharp/OnlineCrimeRepo/bin/Debug/netcoreapp2.0/OnlineCrimeRepo.pdb
+/home/viggie/CSharp/OnlineCrimeRepo/obj/Debug/netcoreapp2.0/OnlineCrimeRepo.csprojAssemblyReference.cache
+/home/viggie/CSharp/OnlineCrimeRepo/obj/Debug/netcoreapp2.0/OnlineCrimeRepo.csproj.CoreCompileInputs.cache
+/home/viggie/CSharp/OnlineCrimeRepo/obj/Debug/netcoreapp2.0/OnlineCrimeRepo.AssemblyInfoInputs.cache
+/home/viggie/CSharp/OnlineCrimeRepo/obj/Debug/netcoreapp2.0/OnlineCrimeRepo.AssemblyInfo.cs
+/home/viggie/CSharp/OnlineCrimeRepo/obj/Debug/netcoreapp2.0/OnlineCrimeRepo.dll
+/home/viggie/CSharp/OnlineCrimeRepo/obj/Debug/netcoreapp2.0/OnlineCrimeRepo.pdb
