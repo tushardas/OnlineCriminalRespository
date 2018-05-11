@@ -1,0 +1,90 @@
+@model OnlineCrimeRepo.Models.CopDesignationViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Cop" asp-action="Index">
+    <p>
+        Designation:
+        <select asp-for="copDesignation" asp-items="Model.designations">
+            <option value="">All</option>
+        </select>
+        <br/>
+        Station:
+        <select asp-for="copStation" asp-items="Model.stations">
+            <option value="">All</option>
+        </select>
+        <br/>
+        Name: <input type="text" name="nameSearch">
+        <br/>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].CopID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].Designation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].PoliceStation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].DateOfBirth)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].PhoneNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.cops[0].Address)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.cops) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CopID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Designation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PoliceStation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

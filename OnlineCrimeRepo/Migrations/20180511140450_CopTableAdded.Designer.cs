@@ -11,9 +11,10 @@ using System;
 namespace OnlineCrimeRepo.Migrations
 {
     [DbContext(typeof(OrpContext))]
-    partial class OrpContextModelSnapshot : ModelSnapshot
+    [Migration("20180511140450_CopTableAdded")]
+    partial class CopTableAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,7 +28,7 @@ namespace OnlineCrimeRepo.Migrations
 
                     b.Property<string>("Address");
 
-                    b.Property<string>("CopID");
+                    b.Property<int>("CopID");
 
                     b.Property<DateTime>("DateOfBirth");
 

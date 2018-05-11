@@ -10,5 +10,6 @@ namespace OnlineCrimeRepo.Models
         }
 
         public DbSet<OnlineCrimeRepo.Models.Criminal> Criminal { get; set; }
+        public DbSet<OnlineCrimeRepo.Models.Cop> Cop { get; set; }
     }
 }
