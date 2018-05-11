@@ -13498,11 +13498,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/viggie/CSharp/OnlineCrimeRepo/OnlineCrimeRepo.csproj",
+      "projectUniqueName": "/home/viggie/CSharp/OnlineCriminalRespository/OnlineCrimeRepo/OnlineCrimeRepo.csproj",
       "projectName": "OnlineCrimeRepo",
-      "projectPath": "/home/viggie/CSharp/OnlineCrimeRepo/OnlineCrimeRepo.csproj",
+      "projectPath": "/home/viggie/CSharp/OnlineCriminalRespository/OnlineCrimeRepo/OnlineCrimeRepo.csproj",
       "packagesPath": "/home/viggie/.nuget/packages/",
-      "outputPath": "/home/viggie/CSharp/OnlineCrimeRepo/obj/",
+      "outputPath": "/home/viggie/CSharp/OnlineCriminalRespository/OnlineCrimeRepo/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
